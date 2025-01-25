@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <>
-      <p className='read-the-docs text-3xl'>Click on the Vite and React logos to learn more</p>
+      <p className='read-the-docs'>Click on the Vite and React logos to learn more</p>
     </>
   );
 }
