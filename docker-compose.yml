@@ -13,5 +13,20 @@ services:
       - client-app_data:/app/data
     restart: always
 
+  admin-app:
+    image: surpentsphere/admin-app
+    build:
+      context: .
+      dockerfile: app/admin-app/Dockerfile
+    ports:
+      - "3001:80"
+    environment:
+      - VITE_API_URL=http://api.yourdomain.com
+      - VITE_APP_NAME=MyReactApp
+    volumes:
+      - admin-app_data:/app/data
+    restart: always
+
 volumes:
   client-app_data:
+  admin-app_data:
