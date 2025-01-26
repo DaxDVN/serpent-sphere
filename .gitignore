@@ -402,8 +402,6 @@ FodyWeavers.xsd
 .idea
 .vs/
 /.vs/*
-
-appsettings.Development.json
 /.vs
 /.vs/VSWorkspaceState.json
 /.vs/serpent-sphere/FileContentIndex/e61fd78f-fd48-4944-b6d2-bd587e300a5b.vsidx
