@@ -1,0 +1,12 @@
+services:
+  postservice.api:
+    image: postservice.api
+    build:
+      context: .
+      dockerfile: services/aspnet-services/PostService/PostService.Api/Dockerfile
+    ports:
+      - "6001:8080"
+      - "6062:8081"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro

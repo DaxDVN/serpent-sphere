@@ -20,13 +20,8 @@ builder
     })
     .UseLightweightSessions();
 
-// builder.Services.AddStackExchangeRedisCache(opts =>
-// {
-//     opts.Configuration = builder.Configuration.GetConnectionString("Redis");
-// });
-
-if (builder.Environment.IsDevelopment())
-    builder.Services.InitializeMartenWith<PostInitialData>();
+// if (builder.Environment.IsDevelopment())
+//     builder.Services.InitializeMartenWith<PostInitialData>();
 
 var app = builder.Build();
 

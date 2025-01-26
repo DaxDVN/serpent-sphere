@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post", "Post", "{411279CF-D281-4EFC-AE84-6243A2526109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostService.Api", "PostService\PostService.Api\PostService.Api.csproj", "{EC73C289-278C-4228-928F-AF051B1F02E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{84CB2764-AEB1-4EA0-9008-0B77DD5737D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared\Shared.csproj", "{99E95130-A921-44CB-858A-F0AE475808CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDAE2AA8-A697-49E2-B5EB-77588D840513}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC73C289-278C-4228-928F-AF051B1F02E6} = {411279CF-D281-4EFC-AE84-6243A2526109}
+		{99E95130-A921-44CB-858A-F0AE475808CD} = {84CB2764-AEB1-4EA0-9008-0B77DD5737D0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC73C289-278C-4228-928F-AF051B1F02E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC73C289-278C-4228-928F-AF051B1F02E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC73C289-278C-4228-928F-AF051B1F02E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC73C289-278C-4228-928F-AF051B1F02E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E95130-A921-44CB-858A-F0AE475808CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E95130-A921-44CB-858A-F0AE475808CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E95130-A921-44CB-858A-F0AE475808CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E95130-A921-44CB-858A-F0AE475808CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
