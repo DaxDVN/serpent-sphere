@@ -3,12 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{9BCBBDD3-BADD-43BC-ACE5-9203216769C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post", "Post", "{C2E64A5C-4EE3-49B1-8FEF-E475ACEDCCA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7CE1E7A0-E6AB-487F-84CB-5B90602B075B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "server\services\aspnet-services\Shared\Shared\Shared.csproj", "{30A30864-72BA-4AE4-B491-C24393C9572E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostService.Api", "server\services\aspnet-services\PostService\PostService.Api\PostService.Api.csproj", "{3093BACC-B4FD-4FC2-933B-79A87A77CE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A30864-72BA-4AE4-B491-C24393C9572E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A30864-72BA-4AE4-B491-C24393C9572E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A30864-72BA-4AE4-B491-C24393C9572E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A30864-72BA-4AE4-B491-C24393C9572E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3093BACC-B4FD-4FC2-933B-79A87A77CE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3093BACC-B4FD-4FC2-933B-79A87A77CE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3093BACC-B4FD-4FC2-933B-79A87A77CE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3093BACC-B4FD-4FC2-933B-79A87A77CE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2E64A5C-4EE3-49B1-8FEF-E475ACEDCCA1} = {9BCBBDD3-BADD-43BC-ACE5-9203216769C7}
+		{7CE1E7A0-E6AB-487F-84CB-5B90602B075B} = {9BCBBDD3-BADD-43BC-ACE5-9203216769C7}
+		{30A30864-72BA-4AE4-B491-C24393C9572E} = {7CE1E7A0-E6AB-487F-84CB-5B90602B075B}
+		{3093BACC-B4FD-4FC2-933B-79A87A77CE0E} = {C2E64A5C-4EE3-49B1-8FEF-E475ACEDCCA1}
 	EndGlobalSection
 EndGlobal
