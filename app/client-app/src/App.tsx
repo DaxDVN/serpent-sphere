@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
+import { Router } from './routes'
 
 function App() {
   return (
     <>
-      <p className='read-the-docs'>Click on the Vite and React logos to learn more</p>
+      <Router/>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
